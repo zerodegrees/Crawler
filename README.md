@@ -2,3 +2,27 @@ Crawler
 =======
 
 a crawler to crawl app information and file from some android and ios application store, like Google Play, AppStore and some unofficial app store in China. 
+======SPLEX======
+=====SHAREPLEX_ROUTES=====
+
+====COLUMN====
+|COLUMN_NAME	|COLUMN_TYPE	|COLUMN_LENGTH	|ISNULL	|PRIMARY_KEY	|ISUNIQUE	|FOREIGN_KEY	|COLUMN_COMMENT	|
+|SOURCE_NAME	|VARCHAR2	|128	|FALSE	|	|	|	|	|
+|TARGET_NAME	|VARCHAR2	|128	|FALSE	|	|	|	|	|
+|EXCLUSIONS	|VARCHAR2	|2048	|FALSE	|	|	|	|	|
+|IP_ADDRESS	|NUMBER	|22	|FALSE	|	|	|	|	|
+|ACTIVATION_ID	|NUMBER	|22	|FALSE	|	|	|	|	|
+|ROUTING_NUMBER	|NUMBER	|22	|FALSE	|	|	|	|	|
+
+=====SHAREPLEX_CONFIG=====
+
+====COLUMN====
+|COLUMN_NAME	|COLUMN_TYPE	|COLUMN_LENGTH	|ISNULL	|PRIMARY_KEY	|ISUNIQUE	|FOREIGN_KEY	|COLUMN_COMMENT	|
+|ACTIVATION_ID	|NUMBER	|22	|FALSE	|	|	|	|	|
+|SEQ_NO	|NUMBER	|22	|FALSE	|	|	|	|	|
+|THREAD_ID	|NUMBER	|22	|FALSE	|	|	|	|	|
+|INSTANCE	|VARCHAR2	|255	|FALSE	|	|	|	|	|
+|HOSTNAME	|VARCHAR2	|255	|FALSE	|	|	|	|	|
+|IOT_TABLES	|NUMBER	|22	|FALSE	|	|	|	|	|
+|ACTIVATION_FLAG	|NUMBER	|22	|FALSE	|	|	|	|	|
+|RECOVERY_SEQNO	|NUMBER	|22	|FALSE	|	|	|	|	|
